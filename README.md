@@ -850,105 +850,205 @@ commands built into ChatGPT or Claude.
   Shortcut                Ask the assistant to...
   ----------------------- ------------------------------------------------
   `/rewrite`              Rewrite while preserving the original meaning.
+
   `/improve`              Improve clarity and quality.
+
   `/polish`               Make writing smoother.
+
   `/proofread`            Correct spelling and grammar.
+
   `/grammar`              Correct grammar only.
+
   `/copyedit`             Edit writing for professional quality.
+
   `/expand`               Add useful detail.
+
   `/shorten`              Make text shorter.
+
   `/paraphrase`           Express the same idea differently.
+
   `/simplifytext`         Rewrite in easier language.
+
   `/formal`               Use a formal tone.
+
   `/casual`               Use a casual conversational tone.
+
   `/friendly`             Use a warm, friendly tone.
+
   `/professional`         Use a professional business tone.
+
   `/persuasive`           Make the writing more persuasive.
+
   `/convincing`           Strengthen the argument.
+
   `/academic`             Use an academic writing format.
+
   `/journalistic`         Use a journalistic format.
+
   `/story`                Present information as a story.
+
   `/essay`                Write an essay.
+
   `/article`              Write an article.
+
   `/report`               Prepare a professional report.
+
   `/whitepaper`           Structure a white paper.
+
   `/casestudy`            Write a case study.
+
   `/proposal`             Create a proposal.
+
   `/sop`                  Write a standard operating procedure.
+
   `/playbook`             Create a practical playbook.
+
   `/manual`               Write a user manual.
+
   `/guide`                Create a step-by-step guide.
+
   `/faq`                  Create frequently asked questions.
+
   `/checklist`            Turn information into a checklist.
+
   `/template`             Create a reusable template.
+
   `/outline`              Create a structured outline.
+
   `/bulletpoints`         Organize the answer into bullet points.
+
   `/keypoints`            Show only the most important points.
+
   `/highlights`           Highlight important information.
+
   `/notes`                Create study or reference notes.
+
   `/minutes`              Write meeting minutes.
+
   `/agenda`               Create a meeting agenda.
+
   `/meetingsummary`       Summarize a meeting.
+
   `/todo`                 Create a to-do list.
+
   `/kanban`               Arrange tasks as a Kanban board.
+
   `/gantt`                Create a text-based Gantt plan.
+
   `/okr`                  Define objectives and key results.
+
   `/kpi`                  Identify key performance indicators.
+
   `/smartgoals`           Write SMART goals.
+
   `/roadmap90`            Create a 90-day roadmap.
+
   `/roadmapyear`          Create a one-year roadmap.
+
   `/milestones`           Identify project milestones.
+
   `/risks`                Identify project risks.
+
   `/riskmatrix`           Rank risks by likelihood and impact.
+
   `/dependencies`         Identify task dependencies.
+
   `/estimate`             Estimate effort or resources.
+
   `/budget`               Plan a budget.
+
   `/forecast`             Forecast possible outcomes.
+
   `/metrics`              Suggest useful metrics.
+
   `/dashboardmetrics`     Suggest dashboard measurements.
+
   `/decisiontree`         Create a decision tree.
+
   `/fishbone`             Analyze causes with a fishbone diagram.
+
   `/pareto`               Apply the 80/20 principle.
+
   `/lean`                 Apply Lean principles.
+
   `/sixsigma`             Apply Six Sigma methods.
+
   `/agile`                Apply an Agile approach.
+
   `/scrum`                Organize work using Scrum.
+
   `/kanbanflow`           Design a Kanban workflow.
+
   `/productivity`         Improve productivity.
+
   `/timemanagement`       Improve time management.
+
   `/pomodoro`             Create a Pomodoro work schedule.
+
   `/studyplan`            Create a study plan.
+
   `/revisionplan`         Create a revision timetable.
+
   `/learningpath`         Build a progressive learning path.
+
   `/feynman`              Explain using the Feynman technique.
+
   `/memory`               Suggest ways to remember information.
+
   `/mnemonics`            Create memory aids.
+
   `/practice`             Generate practice exercises.
+
   `/challengequestions`   Generate challenging questions.
+
   `/coding`               Write code for a task.
+
   `/explaincode`          Explain existing code.
+
   `/debug`                Find and explain bugs.
+
   `/refactor`             Improve code structure.
+
   `/optimizecode`         Improve code performance.
+
   `/reviewcode`           Review code quality.
+
   `/pseudocode`           Convert logic into pseudocode.
+
   `/algorithm`            Design an algorithm.
+
   `/datastructure`        Choose or explain a data structure.
+
   `/sql`                  Write or explain SQL.
+
   `/regex`                Create a regular expression.
+
   `/api`                  Design or explain an API.
+
   `/json`                 Generate or format JSON.
+
   `/yaml`                 Generate or format YAML.
+
   `/csv`                  Generate CSV data.
+
   `/xml`                  Generate or format XML.
+
   `/researchplan`         Plan a research project.
+
   `/literaturereview`     Summarize existing literature.
+
   `/hypothesis`           Develop research hypotheses.
+
   `/experiment`           Design an experiment.
+
   `/peerreview`           Critically review a piece of work.
+
   `/critic`               Give constructive criticism.
+
   `/audit`                Conduct a detailed audit.
+
   `/framework`            Select and apply an analytical framework.
+
   `/onepager`             One-page summaries.
 
 ## 5. Creative thinking, expert perspectives, AI workflows & advanced prompting
@@ -956,104 +1056,203 @@ commands built into ChatGPT or Claude.
   Shortcut              Ask the assistant to...
   --------------------- --------------------------------------------------
   `/brainstorm`         Generate a wide range of ideas.
+
   `/ideas10`            Generate 10 ideas.
+
   `/ideas50`            Generate 50 ideas.
+
   `/creative`           Approach a task creatively.
+
   `/innovate`           Suggest innovative solutions.
+
   `/outofthebox`        Explore unconventional ideas.
+
   `/inspiration`        Generate creative inspiration.
+
   `/random`             Suggest unexpected ideas.
+
   `/combine`            Combine multiple concepts.
+
   `/remix`              Rework an existing idea.
+
   `/alternate`          Suggest alternative approaches.
+
   `/variants`           Create multiple versions.
+
   `/options`            Give several options.
+
   `/compareideas`       Compare different ideas.
+
   `/bestoption`         Identify the strongest option.
+
   `/decision`           Help make a decision.
+
   `/advisor`            Give general advisory guidance.
+
   `/mentor`             Act as a mentor.
+
   `/coach`              Use a coaching approach.
+
   `/teacher`            Teach a subject step by step.
+
   `/tutor`              Provide personal tutoring.
+
   `/professor`          Explain at university level.
+
   `/scientist`          Analyze from a scientific perspective.
+
   `/engineer`           Apply engineering thinking.
+
   `/doctor`             Explain medical topics educationally.
+
   `/lawyer`             Explain legal topics educationally.
+
   `/psychologist`       Explain from a psychology perspective.
+
   `/economist`          Analyze from an economic perspective.
+
   `/historian`          Explain from a historical perspective.
+
   `/journalist`         Investigate and report a topic.
+
   `/editor`             Improve and edit written material.
+
   `/designer`           Apply design thinking.
+
   `/architect`          Think about system architecture.
+
   `/productmanager`     Evaluate from a product-management perspective.
+
   `/founder`            Consider a startup founder's perspective.
+
   `/ceo`                Consider executive-level decisions.
+
   `/investorview`       Evaluate from an investor's perspective.
+
   `/customer`           Evaluate from a customer's perspective.
+
   `/beginner`           Explain for a complete beginner.
+
   `/advanced`           Explain at an advanced level.
+
   `/stepbystep`         Give sequential instructions.
+
   `/interactive`        Work through the task interactively.
+
   `/walkthrough`        Provide a detailed walkthrough.
+
   `/simulation`         Simulate a situation.
+
   `/negotiation`        Practice a negotiation.
+
   `/debate`             Present opposing viewpoints.
+
   `/counterargument`    Develop counterarguments.
+
   `/critique`           Evaluate strengths and weaknesses.
+
   `/improveidea`        Strengthen an existing idea.
+
   `/validate`           Test whether an idea is viable.
+
   `/assumptions`        Identify underlying assumptions.
+
   `/constraints`        Identify limitations and constraints.
+
   `/tradeoffs`          Explain compromises and trade-offs.
+
   `/opportunities`      Identify possible opportunities.
+
   `/risksfuture`        Analyze future risks.
+
   `/trendanalysis`      Analyze trends.
+
   `/forecastfuture`     Explore possible future developments.
+
   `/signals`            Identify early warning signals.
+
   `/emergingtech`       Explore emerging technologies.
+
   `/futureproof`        Make a plan more adaptable to the future.
+
   `/automation`         Identify automation opportunities.
+
   `/workflow`           Design a workflow.
+
   `/pipeline`           Design a process pipeline.
+
   `/systemthinking`     Analyze interconnected parts of a system.
+
   `/mentalmodels`       Apply useful mental models.
+
   `/heuristics`         Use practical decision-making rules.
+
   `/principles`         Explain the fundamental principles.
+
   `/frameworkcompare`   Compare analytical frameworks.
+
   `/bestpractice`       Suggest established best practices.
+
   `/mistakes`           Identify common mistakes.
+
   `/dosanddonts`        List recommended and discouraged actions.
+
   `/quickwins`          Find improvements that can be made quickly.
+
   `/optimization`       Optimize a process or solution.
+
   `/efficiency`         Improve efficiency.
+
   `/automationplan`     Create an automation roadmap.
+
   `/aiworkflow`         Design an AI-assisted workflow.
+
   `/promptaudit`        Review and improve a prompt.
+
   `/promptlibrary`      Organize prompts into a library.
+
   `/promptchain`        Connect prompts into a sequence.
+
   `/metaprompt`         Write a prompt that generates other prompts.
+
   `/systemprompt`       Draft system-level instructions.
+
   `/persona`            Define an AI persona.
+
   `/role`               Respond using a specified role.
+
   `/simulateexpert`     Simulate an expert perspective.
+
   `/multiexpert`        Analyze using multiple expert perspectives.
+
   `/consensus`          Identify areas of agreement.
+
   `/disagreement`       Identify conflicting viewpoints.
+
   `/evidence`           Support conclusions with evidence.
+
   `/confidence`         Explain confidence in an assessment.
+
   `/uncertainty`        Identify what remains uncertain.
+
   `/limitations`        State limitations clearly.
+
   `/assess`             Conduct a comprehensive assessment.
+
   `/scorecard`          Evaluate using a scoring system.
+
   `/ranking`            Rank choices.
+
   `/matrixcompare`      Compare choices in a matrix.
+
   `/finalanswer`        Give only the final answer.
+
   `/thinking`           Explain the reasoning approach at a high level.
+
   `/executemode`        Focus on completing the requested output.
+
   `/masterprompt`       Combine several prompt techniques.
+
   `/allinone`           Combine the most useful approaches for one task.
 
 ## 6. Extra shortcuts: communication, learning, careers & technical work
@@ -1061,65 +1260,125 @@ commands built into ChatGPT or Claude.
   Shortcut                Ask the assistant to...
   ----------------------- ------------------------------------------------------
   `/human`                Make writing sound more natural and human.
+
   `/humanize`             Remove robotic or unnatural wording.
+
   `/no-fluff`             Remove filler and unnecessary explanation.
+
   `/concise`              Answer briefly and directly.
+
   `/brief`                Give a short brief.
+
   `/tldr`                 Give the main points in a quick summary.
+
   `/eli10`                Explain in language a 10-year-old can understand.
+
   `/eli12`                Explain simply without making it childish.
+
   `/plainenglish`         Use everyday English.
+
   `/nontechnical`         Explain for a non-technical audience.
+
   `/technical`            Use precise technical language.
+
   `/romanurdu`            Explain or translate into Roman Urdu.
+
   `/urdu`                 Explain or translate into Urdu.
+
   `/translate`            Translate while preserving meaning and tone.
+
   `/localize`             Adapt language for a particular country or audience.
+
   `/tonecheck`            Identify and assess the tone of a text.
+
   `/audiencecheck`        Adapt content to its intended audience.
+
   `/stylematch`           Follow the style of a sample supplied by the user.
+
   `/askfirst`             Ask essential questions before solving.
+
   `/clarify`              Identify and resolve ambiguity.
+
   `/assumptionscheck`     Identify assumptions that may be incorrect.
+
   `/factsonly`            Separate established facts from opinions.
+
   `/citationcheck`        Check whether citations support the claims.
+
   `/sourceaudit`          Evaluate the reliability of sources.
+
   `/currentcheck`         Verify information that may have changed recently.
+
   `/countercheck`         Look for evidence that challenges a conclusion.
+
   `/uncertaintylabel`     Mark uncertain information clearly.
+
   `/privacycheck`         Identify possible privacy concerns.
+
   `/accessibility`        Make content more accessible.
+
   `/readability`          Improve readability and reading level.
+
   `/readaloud`            Format text for natural spoken delivery.
+
   `/quicknotes`           Create short notes for quick reference.
+
   `/meetingnotes`         Organize meeting notes.
+
   `/actionitems`          Extract tasks, owners, and deadlines.
+
   `/followup`             Draft a follow-up message.
+
   `/emailreply`           Write an appropriate email reply.
+
   `/dm`                   Draft a direct message.
+
   `/coverletter`          Write a job-specific cover letter.
+
   `/resume`               Improve a CV or résumé.
+
   `/ats`                  Make a résumé more ATS-friendly.
+
   `/jobmatch`             Compare a résumé against a job description.
+
   `/interviewanswers`     Prepare interview answers.
+
   `/salarynegotiation`    Practice salary negotiation.
+
   `/portfolio`            Improve a professional portfolio.
+
   `/projectbrief`         Create a clear project brief.
+
   `/userstories`          Write software user stories.
+
   `/acceptancecriteria`   Define acceptance criteria.
+
   `/testcases`            Generate software test cases.
+
   `/testplan`             Create a software test plan.
+
   `/securityreview`       Review a system for security weaknesses.
+
   `/threatmodel`          Identify potential threats and attack paths.
+
   `/performanceaudit`     Review performance bottlenecks.
+
   `/accessibilityaudit`   Review accessibility issues.
+
   `/database`             Design or explain a database.
+
   `/devops`               Explain or plan DevOps practices.
+
   `/dockerexplain`        Explain Docker concepts and commands.
+
   `/clouddeploy`          Plan cloud deployment steps.
+
   `/agentdesign`          Design an AI-agent workflow.
+
   `/mcpworkflow`          Plan a workflow using Model Context Protocol.
+
   `/n8nworkflow`          Design an n8n automation workflow.
+
   `/automationaudit`      Review a workflow for automation opportunities.
 
 ------------------------------------------------------------------------
