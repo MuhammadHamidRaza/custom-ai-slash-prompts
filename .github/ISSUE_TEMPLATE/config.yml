@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/MuhammadHamidRaza/custom-chatgpt-slash-prompts/security/policy
+    about: Please report security issues privately, not in a public issue.
+  - name: Question or idea
+    url: https://github.com/MuhammadHamidRaza/custom-chatgpt-slash-prompts/discussions
+    about: Ask a question or discuss an idea before opening an issue.

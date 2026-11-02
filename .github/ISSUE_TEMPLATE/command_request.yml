@@ -1,0 +1,64 @@
+---
+name: Command request
+description: Suggest a slash-style shortcut that is missing from the library.
+title: "[Command]: "
+labels: ["command request", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a shortcut. One clear, reusable command is more
+        valuable than a long list. Please search the library before submitting.
+  - type: input
+    id: name
+    attributes:
+      label: Proposed command
+      description: Lowercase, no spaces. Hyphens are allowed but not required.
+      placeholder: /onepager
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: What should it do?
+      description: One clear sentence describing the behavior.
+      placeholder: Summarize the material on a single page.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example usage
+      render: text
+      placeholder: |
+        /onepager
+
+        Summarize this report for an executive audience.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Best category
+      options:
+        - Visual thinking, explanations, analysis & strategy
+        - Content creation, social media & marketing
+        - Image prompts, photography & art direction
+        - Writing, productivity, coding & research
+        - Creative thinking, expert perspectives, AI workflows & prompting
+        - Communication, learning, careers & technical work
+        - Extended image/style codes
+        - I am not sure
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched the library and this command does not already exist.
+          required: true
+        - label: This is not an official product feature request.
+          required: true
+        - label: I am willing to open a pull request for it.
+          required: false

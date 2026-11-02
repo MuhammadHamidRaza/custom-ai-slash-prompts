@@ -1,0 +1,601 @@
+[
+ {
+  "id": "T01",
+  "group": "invocation",
+  "input": "/universal-ai-skill-router teacher Teach me Docker from beginner level.",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/teacher"
+   ],
+   "task": "Teach me Docker from beginner level."
+  },
+  "expected_behavior": "Teaches step by step, starts with prerequisites, simple English, practical examples, checks understanding (detailed /teacher definition)."
+ },
+ {
+  "id": "T02",
+  "group": "invocation",
+  "input": "/teacher + /stepbystep + /stickynotes\n\nTeach me Docker from beginner level.\nUse simple English, explain each concept with practical examples,\nshow the commands, and finish with a short quiz.",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/teacher",
+    "/stepbystep",
+    "/stickynotes"
+   ],
+   "task": "Teach me Docker from beginner level.\nUse simple English, explain each concept with practical examples,\nshow the commands, and finish with a short quiz."
+  },
+  "expected_behavior": "Lesson (teacher) in sequential steps, with one-idea-per-note sticky notes, ending with a short quiz as the task asks."
+ },
+ {
+  "id": "T03",
+  "group": "invocation",
+  "input": "/blueprint\n\nCreate a complete blueprint for deploying an AI agent.\nInclude prerequisites, architecture, implementation steps,\ncommands, testing, deployment, monitoring, and risks.",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/blueprint"
+   ],
+   "task": "Create a complete blueprint for deploying an AI agent.\nInclude prerequisites, architecture, implementation steps,\ncommands, testing, deployment, monitoring, and risks."
+  },
+  "expected_behavior": "Complete structured implementation plan; flags missing information instead of guessing."
+ },
+ {
+  "id": "T04",
+  "group": "readme-combination",
+  "input": "/universal-ai-skill-router /teacher + /eli5 + /analogy SAMPLE TASK",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/teacher",
+    "/eli5",
+    "/analogy"
+   ],
+   "task": "SAMPLE TASK"
+  },
+  "expected_behavior": "README combination \"Learn a difficult topic\": all three commands applied together; every command visibly covered; no contradictions."
+ },
+ {
+  "id": "T05",
+  "group": "readme-combination",
+  "input": "/universal-ai-skill-router /deepdive + /stickynotes + /quiz SAMPLE TASK",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/deepdive",
+    "/stickynotes",
+    "/quiz"
+   ],
+   "task": "SAMPLE TASK"
+  },
+  "expected_behavior": "README combination \"Take study notes\": all three commands applied together; every command visibly covered; no contradictions."
+ },
+ {
+  "id": "T06",
+  "group": "readme-combination",
+  "input": "/universal-ai-skill-router /research + /sources + /factcheck SAMPLE TASK",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/research",
+    "/sources",
+    "/factcheck"
+   ],
+   "task": "SAMPLE TASK"
+  },
+  "expected_behavior": "README combination \"Research a current topic\": all three commands applied together; every command visibly covered; no contradictions."
+ },
+ {
+  "id": "T07",
+  "group": "readme-combination",
+  "input": "/universal-ai-skill-router /founder + /swot + /redteam SAMPLE TASK",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/founder",
+    "/swot",
+    "/redteam"
+   ],
+   "task": "SAMPLE TASK"
+  },
+  "expected_behavior": "README combination \"Challenge a business idea\": all three commands applied together; every command visibly covered; no contradictions."
+ },
+ {
+  "id": "T08",
+  "group": "readme-combination",
+  "input": "/universal-ai-skill-router /human + /rewrite + /proofread SAMPLE TASK",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/human",
+    "/rewrite",
+    "/proofread"
+   ],
+   "task": "SAMPLE TASK"
+  },
+  "expected_behavior": "README combination \"Write natural content\": all three commands applied together; every command visibly covered; no contradictions."
+ },
+ {
+  "id": "T09",
+  "group": "readme-combination",
+  "input": "/universal-ai-skill-router /interview + /roleplay + /critique SAMPLE TASK",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/interview",
+    "/roleplay",
+    "/critique"
+   ],
+   "task": "SAMPLE TASK"
+  },
+  "expected_behavior": "README combination \"Prepare for a job interview\": all three commands applied together; every command visibly covered; no contradictions."
+ },
+ {
+  "id": "T10",
+  "group": "readme-combination",
+  "input": "/universal-ai-skill-router /debug + /explaincode + /reviewcode SAMPLE TASK",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/debug",
+    "/explaincode",
+    "/reviewcode"
+   ],
+   "task": "SAMPLE TASK"
+  },
+  "expected_behavior": "README combination \"Debug code\": all three commands applied together; every command visibly covered; no contradictions."
+ },
+ {
+  "id": "T11",
+  "group": "readme-combination",
+  "input": "/universal-ai-skill-router /agentdesign + /workflow + /riskmatrix SAMPLE TASK",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/agentdesign",
+    "/workflow",
+    "/riskmatrix"
+   ],
+   "task": "SAMPLE TASK"
+  },
+  "expected_behavior": "README combination \"Design an AI workflow\": all three commands applied together; every command visibly covered; no contradictions."
+ },
+ {
+  "id": "T12",
+  "group": "readme-combination",
+  "input": "/universal-ai-skill-router /youtube + /storytelling + /retention SAMPLE TASK",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/youtube",
+    "/storytelling",
+    "/retention"
+   ],
+   "task": "SAMPLE TASK"
+  },
+  "expected_behavior": "README combination \"Create a YouTube video\": all three commands applied together; every command visibly covered; no contradictions."
+ },
+ {
+  "id": "T13",
+  "group": "readme-combination",
+  "input": "/universal-ai-skill-router /imageprompt + /cinematicphoto + /photorealistic SAMPLE TASK",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/imageprompt",
+    "/cinematicphoto",
+    "/photorealistic"
+   ],
+   "task": "SAMPLE TASK"
+  },
+  "expected_behavior": "README combination \"Create an image prompt\": all three commands applied together; every command visibly covered; no contradictions."
+ },
+ {
+  "id": "T14",
+  "group": "readme-example",
+  "input": "/teacher + /stepbystep + /stickynotes + /quiz\n\nTeach me Docker from beginner level.",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/teacher",
+    "/stepbystep",
+    "/stickynotes",
+    "/quiz"
+   ],
+   "task": "Teach me Docker from beginner level."
+  },
+  "expected_behavior": "Lesson + notes after each concept + a quiz at the end."
+ },
+ {
+  "id": "T15",
+  "group": "readme-example",
+  "input": "/blueprint + /architecture + /stepbystep\n\nCreate a complete blueprint for an AI agent.",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/blueprint",
+    "/architecture",
+    "/stepbystep"
+   ],
+   "task": "Create a complete blueprint for an AI agent."
+  },
+  "expected_behavior": "Blueprint with architecture and sequential steps; assumptions stated; no invented capabilities."
+ },
+ {
+  "id": "T16",
+  "group": "readme-example",
+  "input": "/research + /sources + /factcheck + /executivebrief\n\nResearch [TOPIC].",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/research",
+    "/sources",
+    "/factcheck",
+    "/executivebrief"
+   ],
+   "task": "Research [TOPIC]."
+  },
+  "expected_behavior": "Uses search if available; separates verified facts/opinions/uncertain; sources with dates; ends with executive brief."
+ },
+ {
+  "id": "T17",
+  "group": "readme-example",
+  "input": "/reviewcode + /securityreview + /performanceaudit\n\nReview the code I provide.",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/reviewcode",
+    "/securityreview",
+    "/performanceaudit"
+   ],
+   "task": "Review the code I provide."
+  },
+  "expected_behavior": "Findings prioritized by severity; does not invent bugs; asks for the code if none provided."
+ },
+ {
+  "id": "T18",
+  "group": "normalization",
+  "input": "/universal-ai-skill-router no-fluff Explain what DNS is.",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/no-fluff"
+   ],
+   "task": "Explain what DNS is."
+  },
+  "expected_behavior": "Hyphenated command resolved."
+ },
+ {
+  "id": "T19",
+  "group": "normalization",
+  "input": "/universal-ai-skill-router no_fluff Explain what DNS is.",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/no-fluff"
+   ],
+   "task": "Explain what DNS is."
+  },
+  "expected_behavior": "Underscore variant resolves to /no-fluff."
+ },
+ {
+  "id": "T20",
+  "group": "normalization",
+  "input": "/360view a coffee mug",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/360view"
+   ],
+   "task": "a coffee mug"
+  },
+  "expected_behavior": "Numeric-leading command resolved."
+ },
+ {
+  "id": "T21",
+  "group": "normalization",
+  "input": "/UNIVERSAL-AI-SKILL-ROUTER SWOT my bakery",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/swot"
+   ],
+   "task": "my bakery"
+  },
+  "expected_behavior": "Case-insensitive; slash optional on command."
+ },
+ {
+  "id": "T22",
+  "group": "normalization",
+  "input": "universal-ai-skill-router imageprompt a lighthouse at dawn",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/imageprompt"
+   ],
+   "task": "a lighthouse at dawn"
+  },
+  "expected_behavior": "Skill name without slash accepted."
+ },
+ {
+  "id": "T23",
+  "group": "normalization",
+  "input": "/human+/rewrite fix this paragraph",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/human",
+    "/rewrite"
+   ],
+   "task": "fix this paragraph"
+  },
+  "expected_behavior": "No-space plus chain."
+ },
+ {
+  "id": "T24",
+  "group": "normalization",
+  "input": "/teacher /eli5 Explain DNS",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/teacher",
+    "/eli5"
+   ],
+   "task": "Explain DNS"
+  },
+  "expected_behavior": "Consecutive slash tokens form a chain."
+ },
+ {
+  "id": "T25",
+  "group": "normalization",
+  "input": "/swot + /swot my bakery",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/swot"
+   ],
+   "task": "my bakery"
+  },
+  "expected_behavior": "Duplicate command applied once."
+ },
+ {
+  "id": "T26",
+  "group": "normalization",
+  "input": "/explaincode + this snippet please",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/explaincode"
+   ],
+   "task": "+ this snippet please"
+  },
+  "expected_behavior": "A plus followed by a non-command word is task text, not an unknown command."
+ },
+ {
+  "id": "T27",
+  "group": "normalization",
+  "input": "/blueprint\nYour task: SaaS launch\nAudience: founders\nFormat: table",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/blueprint"
+   ],
+   "task": "Your task: SaaS launch\nAudience: founders\nFormat: table"
+  },
+  "expected_behavior": "README-style fields honored as binding constraints."
+ },
+ {
+  "id": "T28",
+  "group": "normalization",
+  "input": "/universal-ai-skill-router ascii a cat",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/ascii"
+   ],
+   "task": "a cat"
+  },
+  "expected_behavior": "Section 7 code: real ASCII art produced."
+ },
+ {
+  "id": "T29",
+  "group": "missing-task",
+  "input": "/universal-ai-skill-router swot",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/swot"
+   ],
+   "task": "",
+   "missing_task": true
+  },
+  "expected_behavior": "No topic invented: states what /swot does, shows usage pattern with one tailored example, asks for the task (one question)."
+ },
+ {
+  "id": "T30",
+  "group": "missing-task",
+  "input": "/quiz",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/quiz"
+   ],
+   "task": "",
+   "missing_task": true
+  },
+  "expected_behavior": "If prior content exists in the conversation, quizzes on it and says so; otherwise asks for the topic."
+ },
+ {
+  "id": "T31",
+  "group": "missing-task",
+  "input": "/askfirst",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/askfirst"
+   ],
+   "task": "",
+   "missing_task": true
+  },
+  "expected_behavior": "Self-clarifying command: asks its opening essential question without inventing a task."
+ },
+ {
+  "id": "T32",
+  "group": "unknown",
+  "input": "/universal-ai-skill-router frobnicate Explain Docker in simple terms",
+  "expect": {
+   "mode": "command",
+   "commands": [],
+   "unknown": [
+    "/frobnicate"
+   ]
+  },
+  "expected_behavior": "Says /frobnicate is not in the library, offers up to 3 nearest commands, then answers the task normally."
+ },
+ {
+  "id": "T33",
+  "group": "unknown",
+  "input": "/stikynotes Convert this: Docker packages apps into containers.",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/stickynotes"
+   ],
+   "unknown": [
+    "/stikynotes"
+   ]
+  },
+  "expected_behavior": "One line: Interpreting /stikynotes as /stickynotes; then runs it."
+ },
+ {
+  "id": "T34",
+  "group": "unknown",
+  "input": "/teacher + /zzzfoo Teach me Git",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/teacher"
+   ],
+   "unknown": [
+    "/zzzfoo"
+   ]
+  },
+  "expected_behavior": "Runs /teacher; reports only /zzzfoo as unknown."
+ },
+ {
+  "id": "T35",
+  "group": "conflict",
+  "input": "/concise + /deepdive Explain Kubernetes",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/concise",
+    "/deepdive"
+   ],
+   "conflicts": true
+  },
+  "expected_behavior": "Does not refuse; resolves tension (later command wins tone/length, earlier wins form unless task says otherwise) and notes the choice in one line."
+ },
+ {
+  "id": "T36",
+  "group": "conflict",
+  "input": "/eli5 + /expert Explain transformers",
+  "expect": {
+   "mode": "command",
+   "commands": [
+    "/eli5",
+    "/expert"
+   ],
+   "conflicts": true
+  },
+  "expected_behavior": "Resolves tension explicitly; e.g. simple explanation followed by an expert-level layer."
+ },
+ {
+  "id": "T37",
+  "group": "conversation",
+  "input": "How do I deploy a Node.js app to a VPS?",
+  "expect": {
+   "mode": "conversation"
+  },
+  "expected_behavior": "Normal helpful answer; no routing language."
+ },
+ {
+  "id": "T38",
+  "group": "conversation",
+  "input": "What does /teacher do in this README?",
+  "expect": {
+   "mode": "conversation"
+  },
+  "expected_behavior": "Answers from the registry definition (\"Teach a subject step by step.\") plus the detailed definition; does not execute /teacher."
+ },
+ {
+  "id": "T39",
+  "group": "conversation",
+  "input": "/etc/hosts - how do I edit this file?",
+  "expect": {
+   "mode": "conversation"
+  },
+  "expected_behavior": "File path is not a command; normal answer."
+ },
+ {
+  "id": "T40",
+  "group": "conversation",
+  "input": "Hi!",
+  "expect": {
+   "mode": "conversation"
+  },
+  "expected_behavior": "Normal greeting."
+ },
+ {
+  "id": "T41",
+  "group": "meta",
+  "input": "/universal-ai-skill-router help",
+  "expect": {
+   "mode": "meta",
+   "action": "help"
+  },
+  "expected_behavior": "Short usage guide, 3 examples, 9 categories with counts."
+ },
+ {
+  "id": "T42",
+  "group": "meta",
+  "input": "/universal-ai-skill-router list",
+  "expect": {
+   "mode": "meta",
+   "action": "list"
+  },
+  "expected_behavior": "Lists the 9 category files with counts (totals 763)."
+ },
+ {
+  "id": "T43",
+  "group": "meta",
+  "input": "/universal-ai-skill-router list 3",
+  "expect": {
+   "mode": "meta",
+   "action": "list",
+   "args": "3"
+  },
+  "expected_behavior": "Lists the 100 commands of category 3."
+ },
+ {
+  "id": "T44",
+  "group": "meta",
+  "input": "/universal-ai-skill-router search hook",
+  "expect": {
+   "mode": "meta",
+   "action": "search",
+   "args": "hook"
+  },
+  "expected_behavior": "Lists commands whose name/definition contains \"hook\"."
+ },
+ {
+  "id": "T45",
+  "group": "meta",
+  "input": "/universal-ai-skill-router",
+  "expect": {
+   "mode": "meta",
+   "action": "help"
+  },
+  "expected_behavior": "Skill name alone shows help."
+ }
+]

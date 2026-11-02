@@ -1,0 +1,5 @@
+hand-written cases: 45
+registry-wide cases: 3815 (763 commands x 5 forms)
+total: 3860
+failures: 0
+RESULT: ALL PASS

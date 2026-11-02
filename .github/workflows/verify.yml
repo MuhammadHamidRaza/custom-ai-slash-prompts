@@ -1,0 +1,35 @@
+name: Verify command library
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Verify library and routing
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: universal-ai-skill-router
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify completeness (no files written)
+        run: python scripts/verify.py --check
+
+      - name: Run routing tests
+        run: python scripts/run_tests.py
+
+      - name: Resolve a sample combination
+        run: python scripts/lookup.py "/teacher + /eli5 + /analogy Explain how DNS works"

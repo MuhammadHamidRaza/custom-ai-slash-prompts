@@ -1,0 +1,63 @@
+---
+name: Bug report
+description: Report a wrong definition, duplicate command, broken link, or routing problem.
+title: "[Bug]: "
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem. Please search existing
+        issues first to avoid duplicates.
+  - type: input
+    id: command
+    attributes:
+      label: Command or file
+      description: Which shortcut, file, or page is affected?
+      placeholder: /teacher
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      description: The correct definition, behavior, or output.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+      description: The actual text, output, or error. Include steps to reproduce.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Minimal example
+      description: A copy-pasteable input that shows the problem.
+      render: text
+    validations:
+      required: false
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where did you see it?
+      options:
+        - README.md on GitHub
+        - Claude.ai skill
+        - Claude Code
+        - OpenCode
+        - Python scripts
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and pull requests.
+          required: true
+        - label: I checked that this is not an official product feature request.
+          required: true
