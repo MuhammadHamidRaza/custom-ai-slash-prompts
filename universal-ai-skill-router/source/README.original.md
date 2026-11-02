@@ -1,17 +1,17 @@
 <div align="center">
-# ⚡ 763 Custom ChatGPT Slash Prompts
+# ⚡ 763 Custom Slash Prompts for ChatGPT & Claude
 
-### A community-built prompt shortcut library for learning, creating, researching, coding, and getting work done.
+### A community-built prompt shortcut library for ChatGPT, Claude, and other AI assistants — for learning, creating, researching, coding, and getting work done.
 
 [![Custom
 Prompts](https://img.shields.io/badge/Prompts-763-7C3AED?style=for-the-badge)](#-complete-command-library)
-[![Platform](https://img.shields.io/badge/Platform-ChatGPT%20%7C%20Claude-10A37F?style=for-the-badge)](https://chatgpt.com/)
+[![Platform](https://img.shields.io/badge/Platform-ChatGPT%20%7C%20Claude-10A37F?style=for-the-badge)](#-how-to-use-these-commands-chatgpt-vs-claude)
 [![Skill](https://img.shields.io/badge/Skill-Claude%20%7C%20OpenCode-00A67E?style=for-the-badge)](universal-ai-skill-router/INSTALL.md)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
 
 **One shortcut. One clear instruction. A better starting point for your
-next task.**
+next task — in ChatGPT, Claude, and other assistants.**
 
 ⭐ If this collection helps you, please **star this repository** and
 share it with others!
@@ -22,7 +22,8 @@ share it with others!
 ## 👋 Welcome
 
 This repository is a practical collection of **custom slash-style prompt
-shortcuts** for ChatGPT. It brings together prompts for:
+shortcuts** for ChatGPT, Claude, and other AI assistants. It brings together
+prompts for:
 
 -   📚 Learning, teaching, explanations, and study notes
 -   🔎 Research, fact-checking, critical thinking, and analysis
@@ -89,14 +90,15 @@ it as the skill ID.
 
 ## ⚠️ Important: What these shortcuts are (and aren't)
 
-These are **community-created prompt conventions**, not official
-built-in ChatGPT slash commands.
+These are **community-created prompt conventions**, not official built-in
+commands in ChatGPT or Claude.
 
-For example, typing `/teacher` does not install or activate a special
-ChatGPT feature by itself. It is simply a convenient label for an
-instruction. ChatGPT may interpret it from context, but for consistent
-results, include the description after the shortcut or define your
-preferred shortcuts in Custom Instructions or project instructions.
+For example, typing `/teacher` does not install or activate a special feature
+by itself. It is simply a convenient label for an instruction. ChatGPT and
+Claude may interpret it from context, but for consistent results, include the
+description after the shortcut or define your preferred shortcuts in Custom
+Instructions or project instructions. In Claude, the included skill makes the
+whole library map reliably to the right instruction.
 
 **Example:**
 
@@ -119,7 +121,7 @@ commands, testing, deployment, monitoring, and risks.
 ```
 
 > **Tip:** The shortcut is a label; the instruction after it tells
-> ChatGPT what you actually want.
+> the assistant what you actually want.
 
 ## 🚀 Quick start
 
@@ -147,13 +149,13 @@ Constraints: [what to include or avoid]
 # 📚 Complete command library
 
 The shortcuts are grouped by purpose. Definitions explain the behavior
-to request from ChatGPT. They are not guaranteed capabilities or
-commands built into the product.
+to request from the assistant. They are not guaranteed capabilities or
+commands built into ChatGPT or Claude.
 
 ## 1. Visual thinking, explanations, analysis & strategy
 
   -----------------------------------------------------------------------
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/handwritten`                      Make notebook-style notes.
 
@@ -391,7 +393,7 @@ commands built into the product.
 ## 2. Content creation, social media & marketing
 
   -----------------------------------------------------------------------
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/viral`                            Make content more engaging and
                                       shareable.
@@ -622,7 +624,7 @@ commands built into the product.
 ## 3. Image prompts, photography & art direction
 
   -----------------------------------------------------------------------
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/photorealistic`                   Describe a photorealistic image.
 
@@ -845,7 +847,7 @@ commands built into the product.
 
 ## 4. Writing, productivity, coding & research
 
-  Shortcut                Ask ChatGPT to...
+  Shortcut                Ask the assistant to...
   ----------------------- ------------------------------------------------
   `/rewrite`              Rewrite while preserving the original meaning.
   `/improve`              Improve clarity and quality.
@@ -951,7 +953,7 @@ commands built into the product.
 
 ## 5. Creative thinking, expert perspectives, AI workflows & advanced prompting
 
-  Shortcut              Ask ChatGPT to...
+  Shortcut              Ask the assistant to...
   --------------------- --------------------------------------------------
   `/brainstorm`         Generate a wide range of ideas.
   `/ideas10`            Generate 10 ideas.
@@ -1056,7 +1058,7 @@ commands built into the product.
 
 ## 6. Extra shortcuts: communication, learning, careers & technical work
 
-  Shortcut                Ask ChatGPT to...
+  Shortcut                Ask the assistant to...
   ----------------------- ------------------------------------------------------
   `/human`                Make writing sound more natural and human.
   `/humanize`             Remove robotic or unnatural wording.
@@ -1128,7 +1130,7 @@ Additional slash-style prompt shortcuts collected from community image and style
 
 ### Technical & engineering
 
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/cad`                              CAD-style visualization.
 
@@ -1141,7 +1143,7 @@ Additional slash-style prompt shortcuts collected from community image and style
 
 ### Scientific & medical
 
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/ctscan`                           CT scan visualization.
 
@@ -1156,7 +1158,7 @@ Additional slash-style prompt shortcuts collected from community image and style
 
 ### Industrial & architecture
 
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/elevation`                        Architectural elevation.
 
@@ -1169,7 +1171,7 @@ Additional slash-style prompt shortcuts collected from community image and style
 
 ### Art & drawing styles
 
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/ascii`                            Creates image from keyboard text.
 
@@ -1193,7 +1195,7 @@ Additional slash-style prompt shortcuts collected from community image and style
 
 ### Art & illustration
 
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/noir`                             Noir cinematic style.
 
@@ -1202,7 +1204,7 @@ Additional slash-style prompt shortcuts collected from community image and style
 
 ### Camera & photography
 
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/aerial`                           Aerial perspective.
 
@@ -1213,7 +1215,7 @@ Additional slash-style prompt shortcuts collected from community image and style
 
 ### 3D & rendering
 
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/chrome`                           Chrome material.
 
@@ -1234,7 +1236,7 @@ Additional slash-style prompt shortcuts collected from community image and style
 
 ### Diagrams & infographics
 
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/annotated`                        Annotated technical image.
 
@@ -1243,7 +1245,7 @@ Additional slash-style prompt shortcuts collected from community image and style
 
 ### Technology & concept art
 
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/environmentdesign`                Environment concept.
 
@@ -1254,7 +1256,7 @@ Additional slash-style prompt shortcuts collected from community image and style
 
 ### Nature & space
 
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/astronaut`                        Creates space explorer imagery.
 
@@ -1277,7 +1279,7 @@ Additional slash-style prompt shortcuts collected from community image and style
 
 ### Toys & miniatures
 
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/actionfigure`                     Creates collectible action figure.
 
@@ -1290,7 +1292,7 @@ Additional slash-style prompt shortcuts collected from community image and style
 
 ### Materials & textures
 
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/bronze`                           Generates bronze sculpture style.
 
@@ -1337,7 +1339,7 @@ Additional slash-style prompt shortcuts collected from community image and style
 
 ### Places & adventure
 
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/artdeco`                          Creates elegant geometric design.
 
@@ -1418,7 +1420,7 @@ Additional slash-style prompt shortcuts collected from community image and style
 
 ### Science & abstract
 
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/airport`                          Generates airport terminal scene.
 
@@ -1489,7 +1491,7 @@ Additional slash-style prompt shortcuts collected from community image and style
 
 ### Animals & fantasy creatures
 
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/butterfly`                        Creates butterfly imagery.
 
@@ -1520,7 +1522,7 @@ Additional slash-style prompt shortcuts collected from community image and style
 
 ### UI & technology
 
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/appui`                            Creates mobile app screen design.
 
@@ -1561,7 +1563,7 @@ Additional slash-style prompt shortcuts collected from community image and style
 
 ### Design & branding
 
-  Shortcut                            Ask ChatGPT to...
+  Shortcut                            Ask the assistant to...
   ----------------------------------- -----------------------------------
   `/albumcover`                       Generates music album cover.
 
@@ -1710,7 +1712,8 @@ Do not invent bugs that are not supported by the code.
 # 🛠️ Make these shortcuts reusable
 
 For consistent results, save your preferred shortcut definitions in
-Custom Instructions or in a ChatGPT Project's instructions.
+Custom Instructions (ChatGPT), Projects (ChatGPT), or project/custom
+instructions (Claude).
 
 For example, you can define:
 

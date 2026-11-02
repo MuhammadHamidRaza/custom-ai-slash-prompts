@@ -22,6 +22,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Documentation now uses portable Python commands (`python` on Windows,
   `python3` on macOS/Linux).
+- README and library wording now cover both ChatGPT and Claude, not just
+  ChatGPT; title changed to "763 Custom Slash Prompts for ChatGPT & Claude".
 - The README title and badges show the exact command count (763).
 - `verify.py` gained a `--check` mode for CI that validates without rewriting
   `VERIFICATION-REPORT.md`.
