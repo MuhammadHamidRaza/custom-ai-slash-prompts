@@ -36,30 +36,56 @@ shortcuts** for ChatGPT. It brings together prompts for:
 The goal is simple: make useful prompting patterns easier to discover,
 reuse, customize, and share.
 
-## 🚀 Use it as an AI skill
+## 🧭 How to use these commands: ChatGPT vs Claude
 
-This repository also ships a complete **agent skill** —
-[`universal-ai-skill-router`](universal-ai-skill-router/) — that teaches
-Claude, OpenCode, or any `SKILL.md`-compatible assistant to recognize and
-execute all 763 shortcuts, including `+` combinations, missing tasks, and
-unknown commands.
+The shortcuts are designed for **ChatGPT chat**, where you paste a shortcut and
+your task directly — there is nothing to install. **Claude does not recognize
+these shortcuts by default**, so for Claude you install the skill from this
+repository once (upload the ZIP), enable it, and then use the same shortcuts.
 
-| Platform | Install |
-|---|---|
-| Claude.ai | Upload [`universal-ai-skill-router.zip`](universal-ai-skill-router.zip) in **Settings → Skills** |
-| Claude Code | `unzip universal-ai-skill-router.zip -d ~/.claude/skills/` |
-| OpenCode | `unzip universal-ai-skill-router.zip -d ~/.config/opencode/skills/` |
-| API / Agent SDK | Upload the folder through the Skills API |
+| | ChatGPT | Claude |
+|---|---|---|
+| Setup | None — paste a shortcut and your task | Upload [`universal-ai-skill-router.zip`](universal-ai-skill-router.zip) once, then enable the skill |
+| Where | Any ChatGPT chat, project, or Custom Instructions | Claude.ai → **Settings → Skills**; Claude Code, OpenCode, and API are covered in [`INSTALL.md`](universal-ai-skill-router/INSTALL.md) |
+| Example | `/teacher + /stepbystep Teach me Docker` | The same command after the skill is enabled |
+
+### 💻 ChatGPT: paste and use (no installation)
+
+Open any ChatGPT chat and type a shortcut followed by your request:
+
+```text
+/teacher + /stepbystep + /stickynotes
+
+Teach me Docker from beginner level.
+Use simple English and finish with a short quiz.
+```
+
+The shortcut is a prompt label. For consistent results, keep the instruction
+after it, or save your favorite shortcuts in Custom Instructions or project
+instructions.
+
+### 🚀 Claude: upload the ZIP, enable it, then use it
+
+1. Download [`universal-ai-skill-router.zip`](universal-ai-skill-router.zip)
+   from this repository.
+2. In Claude.ai, open **Settings → Skills** (the exact label varies by version).
+3. Choose **Upload skill** and select the ZIP.
+4. **Turn the skill on.** If Claude asks for file creation or code execution,
+   allow it in the same settings area.
+5. Start a new chat and run:
 
 ```text
 /universal-ai-skill-router teacher + eli5 Explain how DNS works
-/universal-ai-skill-router help
-/universal-ai-skill-router search image
 ```
 
-See [`INSTALL.md`](universal-ai-skill-router/INSTALL.md) for step-by-step
-instructions, Windows commands, and troubleshooting. The skill is optional:
-every shortcut still works as a plain prompt label.
+The ZIP contains one top-level folder, `universal-ai-skill-router/`, with
+`SKILL.md` directly inside it. Keep that folder name — Claude and OpenCode use
+it as the skill ID.
+
+> Claude Code, OpenCode, and the Claude API use the same package with a
+> different install location. See
+> [`INSTALL.md`](universal-ai-skill-router/INSTALL.md) for copy-paste commands,
+> including Windows PowerShell.
 
 ## ⚠️ Important: What these shortcuts are (and aren't)
 

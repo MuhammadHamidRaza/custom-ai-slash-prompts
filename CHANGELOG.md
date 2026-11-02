@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- "How to use these commands: ChatGPT vs Claude" section in `README.md`,
+  explaining that shortcuts work directly in ChatGPT with no installation,
+  while Claude requires uploading and enabling `universal-ai-skill-router.zip`.
 - OpenCode installation instructions alongside Claude.ai, Claude Code, and the
   Skills API.
 - Repository community files: `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`,
