@@ -31,8 +31,8 @@ You do not need to be a maintainer to help.
 
 | I want to… | Do this |
 |---|---|
-| Suggest a shortcut that is missing | [Open a command request](https://github.com/MuhammadHamidRaza/custom-chatgpt-slash-prompts/issues/new?template=command_request.yml) |
-| Report a wrong, duplicate, or unclear definition | [Open a bug report](https://github.com/MuhammadHamidRaza/custom-chatgpt-slash-prompts/issues/new?template=bug_report.yml) |
+| Suggest a shortcut that is missing | [Open a command request](https://github.com/MuhammadHamidRaza/custom-ai-slash-prompts/issues/new?template=command_request.yml) |
+| Report a wrong, duplicate, or unclear definition | [Open a bug report](https://github.com/MuhammadHamidRaza/custom-ai-slash-prompts/issues/new?template=bug_report.yml) |
 | Fix something myself | Open a pull request |
 | Improve the skill package | Edit the router, registry, or scripts, then run the checks |
 | Improve documentation | Fix wording, add examples, or clarify install steps |

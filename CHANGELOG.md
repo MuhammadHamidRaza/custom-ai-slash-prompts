@@ -59,5 +59,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Contributing and support sections rewritten with open-source guidance for
   issues, pull requests, and starring the repository.
 
-[Unreleased]: https://github.com/MuhammadHamidRaza/custom-chatgpt-slash-prompts/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/MuhammadHamidRaza/custom-chatgpt-slash-prompts/releases/tag/v1.0.0
+[Unreleased]: https://github.com/MuhammadHamidRaza/custom-ai-slash-prompts/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/MuhammadHamidRaza/custom-ai-slash-prompts/releases/tag/v1.0.0
